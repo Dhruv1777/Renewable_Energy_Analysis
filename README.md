@@ -6,9 +6,13 @@ This project utilizes regression models to analyze the impact of various predict
 The goal is to understand how different factors influence a country's reliance on renewable energy sources.
 
 ## Data Source
-The final dataset was made by downloading multiple files (one for each predictor variable and one for the dependent variable) from the World Bank website: https://data.worldbank.org/indicator. 
+The final dataset was made by downloading multiple files (one for each predictor variable and one for the dependent variable) from the World Bank website: https://data.worldbank.org/indicator. These datasets were all licensed under the the CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/).
 
-Extensive data cleaning was then performed to format and prepare the data for analysis. This included manually removing 'aggregation' in the World Bank data (in addition to country names, the files included aggregate statistics such as for "East Asia & Pacific" etc) as I wanted to focus exclusively on all the countries of the world. Formatting transformations were employed to make the dataset usable for regression analysis.
+Extensive data cleaning was then performed to format and prepare the data for analysis. This included manually removing 'aggregation' in the World Bank data (in addition to country names, the files included aggregate statistics such as for "East Asia & Pacific" etc) as I wanted to focus exclusively on all the countries of the world. Formatting transformations were employed to make the dataset usable for regression analysis. It is given here as "penultimate_df_for_renewable_energy_regression_v2" before the final transformations are applied in the R file "Renewable Energy Analysis_v2"
+
+As such, this constitutes a derivative work and is also shared under the CC BY 4.0 license.
+
+
 
 ## Predictor Variables
 The study focuses on the following predictors:
