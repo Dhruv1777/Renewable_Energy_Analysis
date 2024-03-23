@@ -57,7 +57,7 @@ A Ridge Regression is a model that, among other things, seeks to solve the probl
 
 
 Results:
-Optimal lambda for minimizing cross-validation error: 2.007.
+Optimal lambda for minimizing cross-validation error: 2.009.
 
 Metrics: MSE = 365.604
 
