@@ -58,16 +58,26 @@ A Ridge Regression is a model that, among other things, seeks to solve the probl
 
 Results:
 Optimal lambda for minimizing cross-validation error: 2.007.
-Metrics: MSE = 365.604, RMSE = 19.12078, MAE = 15.25953, R-squared = 0.5304.
-Comparison: Ridge regression shows slightly better predictive accuracy than the multivariate model, with lower RMSE and MSE, suggesting effectiveness in addressing multicollinearity.
+Metrics: MSE = 365.604
+RMSE = 19.12078
+MAE = 15.25953 
+R-squared = 0.5304.
+
 
 ![ridge_reg.png](./images/ridge_reg.png)
 
 ![ridge_coeffs.png](./images/Ridge_reg_coeffs.png)
 
+To compare with the standard multivariate model, I would have to calculate MSE, RMSE, and MAE for it as well.
 
-## Conclusion
-The ridge regression model, with its control for multicollinearity and overfitting, offers a slightly more accurate prediction of renewable energy usage than the simple multivariate regression, despite the complexities identified with some predictor variables.
+Multivariate model:
+MSE = 357.1079
+RMSE: 18.8973
+MAE: 14.92236
+R-squared (already calculated with the model earlier): 0.529
+
+## Conclusion & Comparison: 
+The ridge regression has a marginally higher R-squared value but higher error terms. Based on the higher error terms, I would suggest the standard multivariate model to be better. However, given the pressence of multicollinearity there could be something else at play here.
 
 The fact of 'unexpected' behavior in predictor variables - (i) access to electricity and GDP per capita has a negative significance & (ii) GDP per capita and overall GDP point in opposite directions - still remain despite addressing multicollinearity. 
 
