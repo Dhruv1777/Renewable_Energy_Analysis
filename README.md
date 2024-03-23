@@ -14,7 +14,6 @@ Extensive data cleaning was then performed to format and prepare the data for an
 The study focuses on the following predictors:
 
 Access to Electricity (% of population)
-Terrestrial and Marine Protected Areas (% of total territorial area)
 Investment in Energy with Private Participation (current US$)
 Gini Index (a measure of income inequality)
 GDP (current US$)
@@ -29,9 +28,9 @@ Objective:
 Quickly assess the impact of predictors on renewable energy usage.
 
 Key Findings:
-A statistically significant model with an Adjusted R-square value of 53.56%, indicating the model explains this percentage of variability in renewable energy usage.
+A statistically significant model with an Adjusted R-square value of 52.9%, indicating the model explains this percentage of variability in renewable energy usage.
 
-Most significant variables: Access to electricity (negative significance), GDP per capita growth (negative significance), and terrestrial and marine protected areas (positive correlation).
+Most significant variables: Access to electricity (negative significance), GDP per capita growth (negative significance), GDP growth (positive correlation).
 GDP and GDP per capita showed no statistical significance, suggesting a complex relationship with renewable energy usage.
 
 ![multivariate_regression.png](./images/multivariate_reg.png)
@@ -59,7 +58,7 @@ A Ridge Regression is a model that, among other things, seeks to solve the probl
 
 Results:
 Optimal lambda for minimizing cross-validation error: 2.007.
-Metrics: MSE = 358.83, RMSE = 18.94, MAE = 15.08, R-squared = 0.539.
+Metrics: MSE = 365.604, RMSE = 19.12078, MAE = 15.25953, R-squared = 0.5304.
 Comparison: Ridge regression shows slightly better predictive accuracy than the multivariate model, with lower RMSE and MSE, suggesting effectiveness in addressing multicollinearity.
 
 ![ridge_reg.png](./images/ridge_reg.png)
