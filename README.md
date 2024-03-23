@@ -34,8 +34,8 @@ A statistically significant model with an Adjusted R-square value of 53.56%, ind
 Most significant variables: Access to electricity (negative significance), GDP per capita growth (negative significance), and terrestrial and marine protected areas (positive correlation).
 GDP and GDP per capita showed no statistical significance, suggesting a complex relationship with renewable energy usage.
 
-![multivariate_regression.png](./images/multivariate_regression.png)
-![Multivariet_Variable_coeffs.png](./images/Multivariet_Variable_coeffs.png)
+![multivariate_regression.png](./images/multivariate_reg.png)
+![Multivariet_Variable_coeffs.png](./images/MMultivariate_variable_coeffs.png)
 
 
 #### Issues Identified
@@ -45,7 +45,7 @@ A possible issue could be that of "multi-collinearity" - where the predictor var
 
 Multi-Collinearity: High correlation among predictor variables, particularly between GDP growth and GDP per capita growth, detected using Variance Inflation Factors (VIF).
 
-![VIF_values.png](./images/VIF_values.png)
+![VIF_values.png](./images/VIF_Values.png)
 
 A more sophisticated model could thus be required. 
 
@@ -63,7 +63,7 @@ Comparison: Ridge regression shows slightly better predictive accuracy than the 
 
 ![ridge_reg.png](./images/ridge_reg.png)
 
-![ridge_coeffs.png](./images/ridge_coeffs.png)
+![ridge_coeffs.png](./images/Ridge_reg_coeffs.png)
 
 
 ## Conclusion
