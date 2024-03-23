@@ -35,7 +35,8 @@ Most significant variables: Access to electricity (negative significance), GDP p
 GDP and GDP per capita showed no statistical significance, suggesting a complex relationship with renewable energy usage.
 
 ![multivariate_regression.png](./images/multivariate_reg.png)
-![Multivariet_Variable_coeffs.png](./images/MMultivariate_variable_coeffs.png)
+
+![Multivariet_Variable_coeffs.png](./images/Multivariate_variable_coeffs.png)
 
 
 #### Issues Identified
