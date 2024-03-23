@@ -58,10 +58,14 @@ A Ridge Regression is a model that, among other things, seeks to solve the probl
 
 Results:
 Optimal lambda for minimizing cross-validation error: 2.007.
+
 Metrics: MSE = 365.604
+
 RMSE = 19.12078
+
 MAE = 15.25953 
-R-squared = 0.5304.
+
+R-squared = 0.5304
 
 
 ![ridge_reg.png](./images/ridge_reg.png)
@@ -72,8 +76,11 @@ To compare with the standard multivariate model, I would have to calculate MSE, 
 
 Multivariate model:
 MSE = 357.1079
+
 RMSE: 18.8973
+
 MAE: 14.92236
+
 R-squared (already calculated with the model earlier): 0.529
 
 ## Conclusion & Comparison: 
