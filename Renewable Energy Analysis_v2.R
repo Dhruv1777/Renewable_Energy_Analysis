@@ -1,6 +1,6 @@
 setwd("C:/Users/Dhruv/Desktop/(2) World Bank Datasets/renewable energy/V2")
 library(tidyverse)
-#Standard multivariate regress
+#Standard multivariate regre
 
 #Regression dataset = new_dataframe
 final_data <- read.csv("penultimate_df_for_renewable_energy_regression_v2.csv")
